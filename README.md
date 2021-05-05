@@ -5,9 +5,17 @@ Project Search App with Vanilla Javscript
 - [gitagray](https://github.com/gitdagray)
 - [Dave Gray](https://www.youtube.com/channel/UCY38RvRIxYODO4penyxUwTg)
 
+- [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page/es)
+
+Description:
+
+In this tutorial, we'll build a Google clone using HTML, SASS compiled to CSS, and Vanilla Javascript. The design will be mobile first, responsive, and have accessibility in mind. We'll use the Javascript Fetch API with Async / Await to retrieve search results from the Wikipedia API.
+
 # CDN
 - [CDN](https://cdnjs.com/)
 
+# FONTS
+- [Google Fonts](https://fonts.google.com/)
 # FontAwesome
 - [FontAwesome](https://fontawesome.com/)
 
