@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.scss",
+        "_base.scss",
+        "_sharedClasses.scss",
+        "_searchEntry.scss",
+        "_searchResults.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
