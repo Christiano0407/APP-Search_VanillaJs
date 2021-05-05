@@ -15,6 +15,14 @@ Description:
 
 In this tutorial, we'll build a Google clone using HTML, SASS compiled to CSS, and Vanilla Javascript. The design will be mobile first, responsive, and have accessibility in mind. We'll use the Javascript Fetch API with Async / Await to retrieve search results from the Wikipedia API.
 
+# API (Practice):
+- [rickandmortyapi](https://rickandmortyapi.com/documentation)
+
+Copyright?
+Rick and Morty is created by Justin Roiland and Dan Harmon for Adult Swim. The data and images are used without claim of ownership and belong to their respective owners.
+
+This API is open source and uses a BSD license.
+
 # CDN
 - [CDN](https://cdnjs.com/)
 

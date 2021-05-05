@@ -1,4 +1,4 @@
-main, footer, .results {
+main, footer, .results, .searchResults .resultItem {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,5 +146,65 @@ img {
   .statsBar .stats {
     font-size: 1rem;
   }
+}
+
+.searchResults {
+  width: 100%;
+}
+
+.searchResults .resultItem {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  padding: 0.25rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .searchResults .resultItem {
+    padding: 0.5rem 0;
+  }
+}
+
+.resultTitle {
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.25rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 3px 2px;
+}
+
+@media only screen and (min-width: 768px) {
+  .resultTitle {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+a {
+  color: #1a0dab;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #609;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid #000000;
 }
 /*# sourceMappingURL=style.css.map */
