@@ -16,7 +16,22 @@ $font-stack: "Roboto", Arial, sans-serif;
     display: flex;
     align-items: center;
 }
+@mixin flexColumn {
+    @extend %flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
+@mixin flexCenter {
+    @extend %flex; 
+    justify-content: center;
+}
+
+@mixin mq($size) {
+    @media only screen and (min-width: $size) {
+        @content; 
+    }
+}
 
 * {
     box-sizing: border-box;
@@ -31,4 +46,35 @@ html, body {
     min-height: 100vh;
     font-family: $font-stack;
    font-size: 22px;
+}
+
+a {
+    text-decoration: none; 
+}
+
+main {
+    @include flexColumn; 
+    min-height: calc(100vh - 60px);
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    @include flexCenter; 
+
+    p {
+        color: $stats-color;
+        font-size: 0.5rem;
+        @include mq(768px) {
+            font-size: 1rem;
+        }
+
+        a {
+            color: $stats-color;
+        }
+    }
+}
+
+img {
+    display: block;
 }
