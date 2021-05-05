@@ -64,4 +64,48 @@ footer p a {
 img {
   display: block;
 }
+
+.blue {
+  color: #4885ed;
+}
+
+.red {
+  color: #db3236;
+}
+
+.yellow {
+  color: #ffc107;
+}
+
+.green {
+  color: #3cba54;
+}
+
+.exclaim {
+  display: inline-block;
+  font-size: 2.5rem;
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
+}
+
+@media only screen and (min-width: 768px) {
+  .exclaim {
+    font-size: 5rem;
+  }
+}
+
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}
+
+.none {
+  display: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */
