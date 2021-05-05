@@ -4,6 +4,10 @@ Project Search App with Vanilla Javscript
 # Project Inspired
 - [gitagray](https://github.com/gitdagray)
 - [Dave Gray](https://www.youtube.com/channel/UCY38RvRIxYODO4penyxUwTg)
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [FreecodeCamp-Academic-Honesty](https://www.freecodecamp.org/news/academic-honesty-policy/)
+
+DO NOT COPY FOR AN ASSIGNMENT - Avoid plagiargism and adhere to the spirit of this Academic Honesty Policy.
 
 - [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page/es)
 

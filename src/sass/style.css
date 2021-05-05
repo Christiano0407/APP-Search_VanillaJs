@@ -1,4 +1,4 @@
-main, footer {
+main, footer, .results {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,5 +107,44 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.results {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0.5rem 1rem;
+  width: 90vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .results {
+    width: 75vw;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .results {
+    width: 55vw;
+  }
+}
+
+.statsBar {
+  width: 100%;
+}
+
+.statsBar .stats {
+  color: #70757a;
+  font-size: 0.75rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .statsBar .stats {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
