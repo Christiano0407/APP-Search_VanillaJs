@@ -1,4 +1,4 @@
-import { setSearchFocus } from "./searchBar.js"; 
+import { setSearchFocus, showClearTextButton, clearSearchText, clearPushListener } from "./searchBar.js"; 
 
 // Import dataFunction
 import { getSearchTerm, retrieveSearchResults } from "./dataFunctions.js"; 
@@ -13,13 +13,18 @@ document.addEventListener("readystatechange", (event) => {
 })
 
 const initApp = () => {
-    setSearchFocus(); 
+  setSearchFocus();
 
-    // 3 listener clear text
-    const form = document.getElementById("searchBar"); 
-    
-    form.addEventListener("submit", submitTheSearch); 
-}
+  const search = document.getElementById("search");
+  search.addEventListener("input", showClearTextButton);
+
+  const clear = document.getElementById("clear");
+  clear.addEventListener("click", clearSearchText);
+  clear.addEventListener("keydown", clearPushListener);
+  
+  const form = document.getElementById("searchBar");
+  form.addEventListener("submit", submitTheSearch);
+};
 
 // Procedural "workflow" function and active search
 
