@@ -164,11 +164,9 @@ img {
   font-size: 0.75rem;
   text-align: left;
   letter-spacing: 0.1rem;
-  /* border: 0; */
+  border: 0;
   outline: none;
   min-width: 150px;
-  margin-right: .5rem;
-  border-radius: .5rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -346,6 +344,13 @@ img {
 
 .results .searchResults .resultItem .resultContents .resultImage {
   margin-right: 0.5rem;
+}
+
+.results .searchResults .resultItem .resultContents .resultImage img {
+  width: 5rem;
+  height: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .results .searchResults .resultItem .resultContents .resultText {

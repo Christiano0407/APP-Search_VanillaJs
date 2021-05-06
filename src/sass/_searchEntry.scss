@@ -33,14 +33,12 @@
      font-size: 0.75rem;
      text-align: left;
      letter-spacing: 0.1rem;
-     /* border: 0; */
+     border: 0; 
      outline: none;
      min-width: 150px;
      @include mq(768px) {
          font-size: 1.25rem;
      }
-     margin-right: .5rem;
-     border-radius: .5rem;
  }
 
  .button {
