@@ -28,9 +28,14 @@ This API is open source and uses a BSD license.
 
 # FONTS
 - [Google Fonts](https://fonts.google.com/)
+
 # FontAwesome
 - [FontAwesome](https://fontawesome.com/)
 
+# Library 
+- [Mozilla](https://developer.mozilla.org/en-US/docs/Web/API)
+- [W3School](https://www.w3schools.com/js/default.asp)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
 # MIT LICENSE
 
 - [choosealicense](https://choosealicense.com/)
