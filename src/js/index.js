@@ -25,7 +25,7 @@ const initApp = () => {
 
 const submitTheSearch = (event) => {
     event.preventDefault(); 
-    // delete search result
+    deleteSearchResults(); 
     processTheSearch(); 
     setSearchFocus(); 
 }
